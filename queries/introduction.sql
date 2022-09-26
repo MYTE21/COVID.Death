@@ -8,3 +8,6 @@ USE covid;
 SELECT *
 FROM owid_covid_data
 LIMIT 11;
+
+# Description of the 'owid_covid_data' table
+DESCRIBE owid_covid_data;
