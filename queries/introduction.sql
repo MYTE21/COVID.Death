@@ -1,22 +1,22 @@
-# Create Database covid
+# Create Database `covid`
 CREATE DATABASE covid;
 
-# Use the 'covid' database
+# Use the `covid` database
 USE covid;
 
-# Show first 10 rows of owid_covid_data
+# Show first 10 rows of `owid_covid_data`
 SELECT *
 FROM owid_covid_data
 LIMIT 101;
 
-# Description of the 'owid_covid_data' table
+# Description of the `owid_covid_data` table
 DESCRIBE owid_covid_data;
 
-/* Divide the 'owid_covid_data' table into two individual table based on:
+/* Divide the `owid_covid_data` table into two individual table based on:
    - Covid-19 Death
    - Covid-19 Vaccination
 */
-# Create table 'covid_death' - Covid-19 Death
+# Create table `covid_death` - Covid-19 Death
 CREATE TABLE covid_death
 AS SELECT iso_code, continent, location, date, population, population_density, total_cases, new_cases,
           new_cases_smoothed, total_deaths, new_deaths, new_deaths_smoothed, total_cases_per_million,
@@ -26,7 +26,7 @@ AS SELECT iso_code, continent, location, date, population, population_density, t
           weekly_hosp_admissions, weekly_hosp_admissions_per_million
 FROM owid_covid_data;
 
-# Create table 'covid_vaccination' - Covid-19 Vaccination
+# Create table `covid_vaccination` - Covid-19 Vaccination
 CREATE TABLE covid_vaccination
 AS SELECT iso_code, continent, location, date, total_tests, new_tests, total_tests_per_thousand,
           new_tests_per_thousand, new_tests_smoothed, new_tests_smoothed_per_thousand, positive_rate,
