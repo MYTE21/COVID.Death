@@ -23,3 +23,32 @@ SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases) * 1
 FROM covid_death
 WHERE location LIKE '%states%'
 ORDER BY 1, 2;
+
+/* Total Cases VS Population
+   - Show what percentage of population got Covid-19 in United States
+*/
+SELECT location, date, population, total_cases, (total_cases/population) * 100 AS infected_population_percentage
+FROM covid_death
+WHERE location LIKE '%states%'
+ORDER BY 1, 2;
+
+/* Countries Infection Rate compared to Population*/
+SELECT location, population, MAX(total_cases) AS highest_infection_count,
+       MAX(total_cases/population) * 100 AS infected_population_percentage
+FROM covid_death
+GROUP BY location, population
+ORDER BY infected_population_percentage DESC;
+
+/* Countries with Highest Death Count Compared to Population*/
+SELECT location, MAX(total_deaths) AS total_death_count
+FROM covid_death
+WHERE continent IS NOT NULL
+GROUP BY location
+ORDER BY total_death_count DESC;
+
+/* Continent with Highest Death Count Compared to Population*/
+SELECT location, MAX(total_deaths) AS total_death_count
+FROM covid_death
+WHERE continent IS NULL
+GROUP BY location
+ORDER BY total_death_count DESC;
