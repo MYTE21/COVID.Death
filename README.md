@@ -18,7 +18,13 @@ Exploring and analysing the global data on confirmed COVID-19 deaths.
 * Select `covid` database.
 * Show `covid_death` table
 * Select `location`, `date`, `total_cases`, `new_cases`, `total_deaths` and `population` for initial analysis.
-* 
+* Total Cases VS Total Deaths
+* Total Cases VS Population
+* Countries Infection Rate compared to Population
+* Countries with Highest Death Count Compared to Population
+* Continents with Highest Death Count Compared to Population
+* Global Cases and Deaths considering each date
+* Global Total Death Percentage
 
 
 
