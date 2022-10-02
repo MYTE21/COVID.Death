@@ -32,23 +32,39 @@ FROM covid_death
 WHERE location LIKE '%states%'
 ORDER BY 1, 2;
 
-/* Countries Infection Rate compared to Population*/
+/* Countries Infection Rate compared to Population */
 SELECT location, population, MAX(total_cases) AS highest_infection_count,
        MAX(total_cases/population) * 100 AS infected_population_percentage
 FROM covid_death
 GROUP BY location, population
 ORDER BY infected_population_percentage DESC;
 
-/* Countries with Highest Death Count Compared to Population*/
+/* Countries with Highest Death Count Compared to Population */
 SELECT location, MAX(total_deaths) AS total_death_count
 FROM covid_death
 WHERE continent IS NOT NULL
 GROUP BY location
 ORDER BY total_death_count DESC;
 
-/* Continent with Highest Death Count Compared to Population*/
+/* Continents with Highest Death Count Compared to Population */
 SELECT location, MAX(total_deaths) AS total_death_count
 FROM covid_death
 WHERE continent IS NULL
 GROUP BY location
 ORDER BY total_death_count DESC;
+
+/* Global Cases and Deaths considering each date
+   - Global Cases and Deaths and Death Percentage Against Cases according to individual date.
+*/
+SELECT date, SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths,
+       (SUM(new_deaths) / SUM(new_cases)) * 100 AS death_percentage_against_cases
+FROM covid_death
+WHERE continent IS NOT NULL
+GROUP BY date
+ORDER BY 1, 2;
+
+# Global Total Death Percentage
+SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths,
+       (SUM(new_deaths) / SUM(new_cases)) * 100 AS death_percentage_against_cases
+FROM covid_death
+WHERE continent IS NOT NULL;
