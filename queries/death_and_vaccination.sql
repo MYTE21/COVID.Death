@@ -52,10 +52,10 @@ FROM percent_population_vaccinated;
 
 # Creating view to store data for later visualization
 CREATE VIEW percent_population_vaccinated_view AS
-SELECT cd.continent, cd.location, cd.date, cd.population, cv.new_vaccinations,
-    SUM(CAST(cv.new_vaccinations AS DOUBLE )) OVER (PARTITION BY cd.location ORDER BY cd.location, cd.date)
-       AS rolling_people_vaccination
-FROM covid_death cd
-JOIN covid_vaccination cv
-    ON cd.location = cv.location AND cd.date = cv.date
-WHERE cd.continent IS NOT NULL;
+    SELECT cd.continent, cd.location, cd.date, cd.population, cv.new_vaccinations,
+        SUM(CAST(cv.new_vaccinations AS DOUBLE )) OVER (PARTITION BY cd.location ORDER BY cd.location, cd.date)
+           AS rolling_people_vaccination
+    FROM covid_death cd
+    JOIN covid_vaccination cv
+        ON cd.location = cv.location AND cd.date = cv.date
+    WHERE cd.continent IS NOT NULL;
