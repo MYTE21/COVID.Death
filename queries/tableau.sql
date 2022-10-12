@@ -19,14 +19,14 @@ WHERE continent IS NULL
 GROUP BY location
 ORDER BY total_death_count DESC;
 
-# NO 3: Height infection and infection percentage of Covid-19 considering location
-SELECT location, population, MAX(total_cases) AS higest_infection_count,
+# NO 3: Highest infection and infection percentage of Covid-19 considering location
+SELECT location, population, MAX(total_cases) AS highest_infection_count,
        MAX(total_cases / population) * 100 AS percent_population_infected
 FROM covid_death
 GROUP BY location, population
 ORDER BY percent_population_infected DESC;
 
-# NO 4: Height infection and infection percentage of Covid-19 considering location with date
+# NO 4: Highest infection and infection percentage of Covid-19 considering location with date
 SELECT location, population, date, MAX(total_cases) AS highest_infection_count,
        MAX(total_cases / covid_death.population) * 100 AS percent_population_indected
 FROM covid_death
