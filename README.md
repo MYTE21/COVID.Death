@@ -4,32 +4,44 @@ A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by th
 Most COVID-19 patients experience mild to moderate symptoms and recover without special treatment.
 However, some will become seriously ill and require medical attention. [🔗](https://en.wikipedia.org/wiki/COVID-19)
 
-The global dataset of the `Coronavirus Disease (COVID-19)` is examined in this study with the major focuses being on 
-`mortality` and `vaccination`. By the project's conclusion, it will be possible to display a variety of elements relating 
+The global dataset of the `Coronavirus Disease (COVID-19)` is examined in this study with the major focuses being on
+`mortality` and `vaccination`. By the project's conclusion, it will be possible to display a variety of elements relating
 to humans and the Coronavirus, including effects, comparisons, time-series, and many more.
 <a href="https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1">
 ![dashboard.png](assets/dashboard.png)
 </a>
 
+Dataset: [Coronavirus (COVID-19) Deaths 🔗](https://ourworldindata.org/covid-deaths)
+
 ## Goals
+The main objectives of this project include:
+1. `Exploring` and `Analyzing` the global dataset Coronavirus.
+2. Constructing an `Interactive Dashboard` to display the Coronavirus's global impact.
 
-This project's primary goals include:
+## Used Technologies
+* `MySql`: Exploring, analysing and generating dataset for visualization.
+* `Tableau`: Creating dashboard.
 
-* Exploring and analyzing the global dataset of deaths caused by the Coronavirus (COVID-19).
-* Constructing an interactive dashboard to show the global impact of the Coronavirus (COVID-19).
-* We'll be dealing with a Covid-19 dataset. MySql for database exploration, analysis, and producing datasets for display. Tableau for dashboard.
+## Description 
 
-Main focus points of this project is -
 
-* Exploring and analysing the global dataset - [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths).
-* Creating interactive dashboard to visualize the effects of Coronavirus (COVID - 19) throughout the world.
 
-## Initial Setup
 
-* We will be working on a Covid-19 dataset.
-  [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths)
-* MySql for exploring, analysing and generating dataset for visualization.
-* Tableau for dashboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Introduction [introduction.sql]
 
