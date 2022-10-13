@@ -1,9 +1,11 @@
 # COVID.Death
 
-A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by the `SARS-CoV-2 Virus`.<br><br>
+A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by the `SARS-CoV-2 Virus`.
 Most COVID-19 patients experience mild to moderate symptoms and recover without special treatment.
 However, some will become seriously ill and require medical attention. [🔗](https://en.wikipedia.org/wiki/COVID-19)
+<a href="https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1">
 ![dashboard.png](assets/dashboard.png)
+</a>
 
 ## Goals
 
