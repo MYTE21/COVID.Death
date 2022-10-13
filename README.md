@@ -11,7 +11,7 @@ to humans and the Coronavirus, including effects, comparisons, time-series, and 
 ![dashboard.png](assets/dashboard.png)
 </a>
 
-Dataset: [Coronavirus (COVID-19) Deaths 🔗](https://ourworldindata.org/covid-deaths)
+**Dataset:** [Coronavirus (COVID-19) Deaths 🔗](https://ourworldindata.org/covid-deaths)
 
 ## Goals
 The main objectives of this project include:
@@ -22,7 +22,13 @@ The main objectives of this project include:
 * `MySql`: Exploring, analysing and generating dataset for visualization.
 * `Tableau`: Creating dashboard.
 
-## Description 
+## Description
+Querying and visualization make up the two sections of this project. It is handled separately for each part. 
+The SQL files `introduction.sql`, `death.sql`, `vaccination.sql`, and `death_and_vaccination.sql` provide the queries 
+for data exploration. To generate the resources required for data visualization, there is one more file named 
+`tableau.sql`. The original Tableau visualization file is available at this URL - [Tableau: Covid - 19 Infected 
+Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1). 
+A discussion of additional details follows. So, let's get started.
 
 
 
