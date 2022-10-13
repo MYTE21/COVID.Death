@@ -1,11 +1,32 @@
 # COVID.Death
-Exploring and analysing the global data on confirmed COVID-19 deaths.
+
+A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by the `SARS-CoV-2 Virus`.<br><br>
+Most COVID-19 patients experience mild to moderate symptoms and recover without special treatment.
+However, some will become seriously ill and require medical attention. [🔗](https://en.wikipedia.org/wiki/COVID-19)
+![dashboard.png](assets/dashboard.png)
+
+## Goals
+
+This project's primary goals include:
+
+* Exploring and analyzing the global dataset of deaths caused by the Coronavirus (COVID-19).
+* Constructing an interactive dashboard to show the global impact of the Coronavirus (COVID-19).
+* We'll be dealing with a Covid-19 dataset. MySql for database exploration, analysis, and producing datasets for display. Tableau for dashboard.
+
+Main focus points of this project is -
+
+* Exploring and analysing the global dataset - [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths).
+* Creating interactive dashboard to visualize the effects of Coronavirus (COVID - 19) throughout the world.
 
 ## Initial Setup
+
 * We will be working on a Covid-19 dataset.
-[Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths)
+  [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths)
+* MySql for exploring, analysing and generating dataset for visualization.
+* Tableau for dashboard.
 
 ## Introduction [introduction.sql]
+
 * Create Database called `covid`.
 * Select `covid` database.
 * Create table `owid_covid_data` from the  `owid_covid_data` csv dataset.
@@ -15,6 +36,7 @@ Exploring and analysing the global data on confirmed COVID-19 deaths.
   * `covid_vaccination` - Covid-19 Vaccination
 
 ## Covid-19 Death [death.sql]
+
 * Select `covid` database.
 * Show `covid_death` table
 * Select `location`, `date`, `total_cases`, `new_cases`, `total_deaths` and `population` for initial analysis.
@@ -26,11 +48,6 @@ Exploring and analysing the global data on confirmed COVID-19 deaths.
 * Global Cases and Deaths considering each date
 * Global Total Death Percentage
 
-
-
-
-
-
-
 ## Covid-19 Vaccination [vaccination.sql]
+
 * Select `covid` database.
