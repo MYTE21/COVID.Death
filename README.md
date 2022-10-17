@@ -57,3 +57,8 @@ so has the rate of immunization. The `death_and_vaccination.sql` file contains t
 We also established a `temporary table` and `view` in this part for upcoming analysis.
 
 ### Visualizations
+To better understand just how dangerous this Coronavirus is, consider `visualizing` Covid-19's impact on the entire planet.
+In order to accomplish this, we query some crucial data from the dataset and display it in an understandable manner (visualization).
+We'll go over each visualization separately. However, [Tableau: Covid - 19 Infected 
+Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1) -
+is where you'll find the visualization's dashboard.
