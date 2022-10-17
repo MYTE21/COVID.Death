@@ -21,6 +21,7 @@ The main objectives of this project include:
 ## Used Technologies
 * `MySql`: Exploring, analysing and generating dataset for visualization.
 * `Tableau`: Creating dashboard.
+* `IDE`: [DataGrip](https://www.jetbrains.com/datagrip/)
 
 ## Description
 Querying and visualization make up the two sections of this project. It is handled separately for each part. 
@@ -30,6 +31,8 @@ for data exploration. To generate the resources required for data visualization,
 Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1). 
 A discussion of additional details follows. So, let's get started.
 
+### Queries
+### Visualizations
 
 
 
