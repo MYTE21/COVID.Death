@@ -51,5 +51,9 @@ The `Faeroe Islands`, on the other hand, are the nation with the highest level o
 proportion of its population that is infected with Covid-19. Of all the continents, `Europe` has the highest death 
 rate (19,38,508). In conclusion, there have been a total of `6,131,45,066` cases and `64,98,075` fatalities from 
 Covid-19 worldwide, resulting in a mortality rate of `1.059%`. `death.sql` file contains records that were produced.
+#### Death & Vaccination
+The number of `Covid-19` fatalities and casualties is increasing daily. However, as `vaccinations` have advanced, 
+so has the rate of immunization. The `death_and_vaccination.sql` file contains the development for this statement. 
+We also established a `temporary table` and `view` in this part for upcoming analysis.
 
 ### Visualizations
