@@ -1,5 +1,7 @@
 # COVID.Death
 
+![activity.png](assets/activity.png) `Active`
+
 A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by the `SARS-CoV-2 Virus`.
 Most COVID-19 patients experience mild to moderate symptoms and recover without special treatment.
 However, some will become seriously ill and require medical attention. [🔗](https://en.wikipedia.org/wiki/COVID-19)
@@ -14,43 +16,36 @@ to humans and the Coronavirus, including effects, comparisons, time-series, and 
 **Dataset:** [Coronavirus (COVID-19) Deaths 🔗](https://ourworldindata.org/covid-deaths)
 
 ## Goals
+
 The main objectives of this project include:
+
 1. `Exploring` and `Analyzing` the global dataset Coronavirus.
 2. Constructing an `Interactive Dashboard` to display the Coronavirus's global impact.
 
 ## Used Technologies
+
 * `MySql`: Exploring, analysing and generating dataset for visualization.
 * `Tableau`: Creating dashboard.
 * `IDE`: [DataGrip](https://www.jetbrains.com/datagrip/)
 
 ## Description
-Querying and visualization make up the two sections of this project. It is handled separately for each part. 
-The SQL files `introduction.sql`, `death.sql`, `vaccination.sql`, and `death_and_vaccination.sql` provide the queries 
-for data exploration. To generate the resources required for data visualization, there is one more file named 
-`tableau.sql`. The original Tableau visualization file is available at this URL - [Tableau: Covid - 19 Infected 
-Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1). 
+
+Querying and visualization make up the two sections of this project. It is handled separately for each part.
+The SQL files `introduction.sql`, `death.sql`, `vaccination.sql`, and `death_and_vaccination.sql` provide the queries
+for data exploration. To generate the resources required for data visualization, there is one more file named
+`tableau.sql`. The original Tableau visualization file is available at this URL - [Tableau: Covid - 19 Infected
+Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopulation/Dashboard1).
 A discussion of additional details follows. So, let's get started.
 
 ### Queries
+
+The first question regarding the [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths) dataset is
+what fields we will come across and which of them will be most helpful for this survey. Calculating the affected and
+mortality numbers is crucial based on previous pandemic experiences. The provision of medical care and prevention are
+the next things following them. Therefore, we separated our actual dataset into two separate datasets based on `death`
+and `vaccination`. The `introduction.sql` query has a section on this.
+
 ### Visualizations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Introduction [introduction.sql]
 
