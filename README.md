@@ -38,38 +38,18 @@ Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopu
 A discussion of additional details follows. So, let's get started.
 
 ### Queries
-
+#### Introduction
 The first question regarding the [Coronavirus (COVID-19) Deaths](https://ourworldindata.org/covid-deaths) dataset is
 what fields we will come across and which of them will be most helpful for this survey. Calculating the affected and
 mortality numbers is crucial based on previous pandemic experiences. The provision of medical care and prevention are
 the next things following them. Therefore, we separated our actual dataset into two separate datasets based on `death`
 and `vaccination`. The `introduction.sql` query has a section on this.
+#### Deaths
+In calculating the overall number of cases and deaths for all locations, we discover that the `USA` has the highest number 
+of `Covid-19` instances and fatalities. However, among all the nations, `Africa` ranks last in both of these categories.
+The `Faeroe Islands`, on the other hand, are the nation with the highest level of contamination, as measured by the 
+proportion of its population that is infected with Covid-19. Of all the continents, `Europe` has the highest death 
+rate (19,38,508). In conclusion, there have been a total of `6,131,45,066` cases and `64,98,075` fatalities from 
+Covid-19 worldwide, resulting in a mortality rate of `1.059%`. `death.sql` file contains records that were produced.
 
 ### Visualizations
-
-## Introduction [introduction.sql]
-
-* Create Database called `covid`.
-* Select `covid` database.
-* Create table `owid_covid_data` from the  `owid_covid_data` csv dataset.
-* Create description of the table and store it as a csv file named - `description_of_owid_covid_data.csv`.
-* Create 2 tables form `owid_covid_data`
-  * `covid_death` - Covid-19 Death
-  * `covid_vaccination` - Covid-19 Vaccination
-
-## Covid-19 Death [death.sql]
-
-* Select `covid` database.
-* Show `covid_death` table
-* Select `location`, `date`, `total_cases`, `new_cases`, `total_deaths` and `population` for initial analysis.
-* Total Cases VS Total Deaths
-* Total Cases VS Population
-* Countries Infection Rate compared to Population
-* Countries with Highest Death Count Compared to Population
-* Continents with Highest Death Count Compared to Population
-* Global Cases and Deaths considering each date
-* Global Total Death Percentage
-
-## Covid-19 Vaccination [vaccination.sql]
-
-* Select `covid` database.
