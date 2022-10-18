@@ -1,6 +1,6 @@
 # COVID.Death
 
-![activity.png](assets/activity.png) `Active`
+![activity.png](assets/activity.png) `Active` [`version 1.0`]
 
 A contagious illness called `Coronavirus Disease (COVID-19)` is brought on by the `SARS-CoV-2 Virus`.
 Most COVID-19 patients experience mild to moderate symptoms and recover without special treatment.
@@ -104,6 +104,6 @@ rate is modest. It is unexpected that `China` and `Bangladesh` have far lower th
 ## Contributors
 
 
-| Contributor                                                                           | Name                  | Github Link               |
+| Contributors                                                                          | Name                  | Github Link               |
 |---------------------------------------------------------------------------------------|-----------------------|---------------------------|
 | <img height="50em" src="https://avatars.githubusercontent.com/u/34136675?v=4" alt=""> | Md Yasmi Tohabar Evon | https://github.com/MYTE21 |
