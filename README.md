@@ -75,3 +75,9 @@ We can see that there are `613,145,066` cases of `Covid-19` infections worldwide
 Of those affected, `6,498,075` have passed away. So from the beginning to the present, the death rate is `1.06%`.
 
 <img height="65em" src="assets/global_numbers.png" alt="">
+
+#### Deaths in Continents
+From the `6 continents` (Europe, North America, Asia, South Asia, Africa and Oceania), **highest** number of fatalities is in the `Europe`. 
+North America and Asia is the next most death counted continents respectively. Despite being lower, South America is 
+relatively near to Asia. `Africa` and `Oceania`, however, are at the bottom of the global rankings, respectively.  
+<img height="356em" src="assets/death_continent.png" alt="">
