@@ -80,4 +80,4 @@ Of those affected, `6,498,075` have passed away. So from the beginning to the pr
 From the `6 continents` (Europe, North America, Asia, South Asia, Africa and Oceania), **highest** number of fatalities is in the `Europe`. 
 North America and Asia is the next most death counted continents respectively. Despite being lower, South America is 
 relatively near to Asia. `Africa` and `Oceania`, however, are at the bottom of the global rankings, respectively.  
-<img height="356em" src="assets/death_continent.png" alt="">
+<img height="456em" src="assets/death_continent.png" alt="">
