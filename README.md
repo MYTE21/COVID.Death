@@ -71,30 +71,39 @@ Population](https://public.tableau.com/app/profile/myte/viz/Covid-19InfectedPopu
 is where you'll find the visualization's dashboard.
 
 #### Global Numbers
-We can see that there are `613,145,066` cases of `Covid-19` infections worldwide when we take the entire planet into account. 
+
+We can see that there are `613,145,066` cases of `Covid-19` infections worldwide when we take the entire planet into account.
 Of those affected, `6,498,075` have passed away. So from the beginning to the present, the death rate is `1.06%`.
 
 <img height="65em" src="assets/global_numbers.png" alt="">
 
 #### Deaths in Continents
-From the `6 continents` (Europe, North America, Asia, South Asia, Africa and Oceania), **highest** number of fatalities is in the `Europe`. 
-North America and Asia is the next most death counted continents respectively. Despite being lower, South America is 
-relatively near to Asia. `Africa` and `Oceania`, however, are at the bottom of the global rankings, respectively.  
+
+From the `6 continents` (Europe, North America, Asia, South Asia, Africa and Oceania), **highest** number of fatalities is in the `Europe`.
+North America and Asia is the next most death counted continents respectively. Despite being lower, South America is
+relatively near to Asia. `Africa` and `Oceania`, however, are at the bottom of the global rankings, respectively.
 <img height="456em" src="assets/death_continent.png" alt="">
 
 #### Infected Population
-Here, we're simulating the global spread of the `Covid-19 virus` using a `dashboard map`. This is a quick overview of the 
-harmful effects of the coronavirus around the world. The nations on the continents of `Europe and North America` are 
+
+Here, we're simulating the global spread of the `Covid-19 virus` using a `dashboard map`. This is a quick overview of the
+harmful effects of the coronavirus around the world. The nations on the continents of `Europe and North America` are
 undoubtedly the ones with the `worst infections` worldwide.
 <img height="456em" src="assets/infected_per_country.png" alt="">
 
-It is not necessary to keep track of the global increase in Covid-19 infection rates. Therefore, we'll focus on a 
-selected group of 11 countries (United States, United Kingdom, Mexico, Bangladesh etc.). Analyzing the line graph that 
-shows the average rising number of Covid-19 infected people in various countries makes it clear that the `United States` 
-is increasing at a steady rate. `Germany`, on the other hand, experienced a modest growth rate up until December 2021, 
-but after that, it swiftly picked up and eventually reached the highest Covid-19 infection rate. The same screening 
-applies to `Japan`, the `United Kingdom`, `Ireland`, and `Italy`. In `Canada`, `Mexico`, and `India`, the average population infection 
+It is not necessary to keep track of the global increase in Covid-19 infection rates. Therefore, we'll focus on a
+selected group of 11 countries (United States, United Kingdom, Mexico, Bangladesh etc.). Analyzing the line graph that
+shows the average rising number of Covid-19 infected people in various countries makes it clear that the `United States`
+is increasing at a steady rate. `Germany`, on the other hand, experienced a modest growth rate up until December 2021,
+but after that, it swiftly picked up and eventually reached the highest Covid-19 infection rate. The same screening
+applies to `Japan`, the `United Kingdom`, `Ireland`, and `Italy`. In `Canada`, `Mexico`, and `India`, the average population infection
 rate is modest. It is unexpected that `China` and `Bangladesh` have far lower than average rates of coronavirus infection.
 
 <img height="350em" src="assets/avg_infected_population.png" alt="">
 
+## Contributors
+
+
+| Contributor                                                                           | Name                  | Github Link               |
+|---------------------------------------------------------------------------------------|-----------------------|---------------------------|
+| <img height="50em" src="https://avatars.githubusercontent.com/u/34136675?v=4" alt=""> | Md Yasmi Tohabar Evon | https://github.com/MYTE21 |
