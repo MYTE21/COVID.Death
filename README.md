@@ -81,3 +81,9 @@ From the `6 continents` (Europe, North America, Asia, South Asia, Africa and Oce
 North America and Asia is the next most death counted continents respectively. Despite being lower, South America is 
 relatively near to Asia. `Africa` and `Oceania`, however, are at the bottom of the global rankings, respectively.  
 <img height="456em" src="assets/death_continent.png" alt="">
+
+#### Infected Population
+Here, we're simulating the global spread of the `Covid-19 virus` using a `dashboard map`. This is a quick overview of the 
+harmful effects of the coronavirus around the world. The nations on the continents of `Europe and North America` are 
+undoubtedly the ones with the `worst infections` worldwide.
+<img height="456em" src="assets/infected_per_country.png" alt="">
