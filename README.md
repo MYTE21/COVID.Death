@@ -87,3 +87,13 @@ Here, we're simulating the global spread of the `Covid-19 virus` using a `dashbo
 harmful effects of the coronavirus around the world. The nations on the continents of `Europe and North America` are 
 undoubtedly the ones with the `worst infections` worldwide.
 <img height="456em" src="assets/infected_per_country.png" alt="">
+
+It is not necessary to keep track of the global increase in Covid-19 infection rates. Therefore, we'll focus on a 
+selected group of 11 countries (United States, United Kingdom, Mexico, Bangladesh etc.). Analyzing the line graph that 
+shows the average rising number of Covid-19 infected people in various countries makes it clear that the `United States` 
+is increasing at a steady rate. `Germany`, on the other hand, experienced a modest growth rate up until December 2021, 
+but after that, it swiftly picked up and eventually reached the highest Covid-19 infection rate. The same screening 
+applies to `Japan`, the `United Kingdom`, `Ireland`, and `Italy`. In `Canada`, `Mexico`, and `India`, the average population infection 
+rate is modest. It is unexpected that `China` and `Bangladesh` have far lower than average rates of coronavirus infection.
+<img height="500em" src="assets/avg_infected_population.png" alt="">
+
